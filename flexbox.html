@@ -1,0 +1,151 @@
+<html>
+
+<head>
+   <link rel="stylesheet" href="normalize.css">
+   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-white">
+   <div>
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+   </div>
+   <div class="flex">
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+   </div>
+   {# flex direction #}
+   <div class="flex justify-start">
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+   </div>
+   <div class="flex justify-center">
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+   </div>
+   <div class="flex justify-end">
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+   </div>
+   <div class="flex justify-between">
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+   </div>
+   <div class="flex justify-around">
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+   </div>
+   {# verically #}
+   <div class="bg-green-300 h-screen flex items-start">
+      <div class="bg-yellow-400  flex">1</div>
+      <div class="bg-red-400  flex">2</div>
+      <div class="bg-blue-400  flex">3</div>
+   </div>
+   <div class="bg-pink-300 h-screen flex items-center">
+      <div class="bg-yellow-400  flex">1</div>
+      <div class="bg-red-400  flex">2</div>
+      <div class="bg-blue-400  flex">3</div>
+   </div>
+   <div class="bg-purple-300 h-screen flex items-end">
+      <div class="bg-yellow-400  flex">1</div>
+      <div class="bg-red-400  flex">2</div>
+      <div class="bg-blue-400  flex">3</div>
+   </div>
+   <div class="bg-green-300 h-screen flex items-stretch">
+      <div class="bg-yellow-400  flex">1</div>
+      <div class="bg-red-400  flex">2</div>
+      <div class="bg-blue-400  flex">3</div>
+   </div>
+   <div class="bg-pink-300 h-screen flex items-baseline">
+      <div class="bg-yellow-400  flex">1</div>
+      <div class="bg-red-400  flex">2</div>
+      <div class="bg-blue-400  flex">3</div>
+   </div>
+
+   {# flexbox direction #}
+
+   <div class="bg-green-300 h-screen flex flex-row">
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+   </div>
+   <div class="bg-pink-300 h-screen flex flex-row-reverse">
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+   </div>
+   <div class="bg-green-300 h-screen flex flex-col">
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+   </div>
+   <div class="bg-pink-300 h-screen flex flex-col-reverse">
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+   </div>
+
+   {# wrap #}
+   <div class="bg-purple-300 h-screen flex ">
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+   </div>
+   <div class="bg-purple-300 h-screen flex flex-wrap">
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+   </div>
+   <div class="bg-purple-300 h-screen flex flex-wrap-reverse">
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+      <div class="bg-yellow-400 w-16 h-16 flex">1</div>
+      <div class="bg-red-400 w-16 h-16 flex">2</div>
+      <div class="bg-blue-400 w-16 h-16 flex">3</div>
+   </div>
+
+   <script src="./index.js"></script>
+</body>
+
+</html>
